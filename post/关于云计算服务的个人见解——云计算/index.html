@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="DT,DTNETWORK,鼎天网络，鼎天科技，鼎天科技工作室，鼎天网络工作室，鼎天网络科技工作室,dtblog,鼎天网络博客，鼎天网络工作室博客">
+<meta name="description" content="温故而知新">
+<meta name="theme-color" content="#000">
+<title>关于云计算服务的个人见解——云计算 | Gridea</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1590903007300">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/media/css/gemini.css">
+
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/androidstudio.css" rel="stylesheet">  
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165298653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165298653-1');
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?f7bcb996cc6c98869cdacf7c30c1e26d";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+    <meta name="description" content="关于云计算服务的个人见解——云计算" />
+    <meta name="keywords" content="博文" />
+  </head>
+  <body>
+    <div class="head-top-line"></div>
+    <div class="header-box">
+      
+<div class=" gemini">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>Gridea</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">DTNETWORK</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends" target="_bank">
+                  
+                    fa-ship友情链接
+                  
+                </a>
+              </li>
+            
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+    </div>
+    <div class="main-continer">
+      
+      <div class="section-layout gemini ">
+        <div class="section-layout-wrapper">
+          
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+        <div class="post-list-sidebar">
+          <div class="sidebar-title">
+            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active">文章目录</span>
+            <span id="metaSideBar" class="sidebar-title-item">站点概览</span>
+          </div>
+        </div>
+      
+      <div class="sidebar-body gemini" id="sidebar_body">
+        
+          
+            
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">Gridea</p>
+    <p class="site-description right-motion">温故而知新</p>
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">19</span>
+        <span class="site-item-stat-name">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">4</span>
+        <span class="site-item-stat-name">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">4</span>
+        <span class="site-item-stat-name">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item">
+        <span class="site-item-rss">
+            <i class="fa fa-rss"></i>
+            <a href="https://blog.dtnetwork.top/atom.xml" target="_blank">RSS</a>
+        </span>
+      </div>
+    
+  
+  
+
+
+</div>
+          
+        
+      </div>
+    </div>
+  
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+          <div class="section-box box-shadow-wrapper">
+            <div class="section bg-color post post-page">
+              <header class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://blog.dtnetwork.top/post/关于云计算服务的个人见解——云计算/">
+      关于云计算服务的个人见解——云计算
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span>发布于</span>
+      <span>2020-05-01</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+      <span class="meta-item">
+        <i class="fa fa-folder-o"></i>
+        <span class="pc-show">分类于</span>
+        
+          
+            <a href="https://blog.dtnetwork.top/tag/fgAeP9rZMH/">
+              <span>博文</span>
+            </a>
+          
+        
+      </span>
+      <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>11分钟</span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>2731<span class="pc-show">字数</span></span>
+    </span>
+    
+      
+      
+        
+      
+      <span id="/post/关于云计算服务的个人见解——云计算/" data-flag-title="关于云计算服务的个人见解——云计算" class="meta-item pc-show leancloud_visitors">
+        <span class="post-meta-divider">|</span>
+        <i class="fa fa-eye"></i>
+        <span>浏览量：<span class="leancloud-visitors-count" ></span></span>
+      </span>
+    
+  </div>
+</header>
+              <div class="post-body next-md-body" id="post_body">
+                  <script>
+(function(){
+var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+  <script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+<p><strong>在信息技术高度发达的今天，互联网使我们的距离缩短到前所未有的水平，指尖一点，便与世界相连。然而，当你访问万维网的时候，是否想到过其背后的原理，是否对其深入研究过呢。————代序</strong></p>
+<p><h2>云计算</h2></p>
+<p>云计算，是当今时代的热点，几乎任何的网络活动都要依靠云计算，维基百科给云计算的定义是<strong>云计算（英语：cloud computing），是一种基于互联网的计算方式，通过这种方式，共享的软硬件资源和信息可以按需求提供给计算机各种终端和其他设备，使用服务商提供的电脑基建作计算和资源。</strong>形象一点来说，当你驰骋召唤师峡谷，或者使用Skype与朋友远程对话的时候，数据并不止是在你的终端被处理，而是上传到官方的服务器，在服务器中进行信息的处理，这就是云计算。</p>
+<p><h3>云计算基本特征</h3></p>
+<p>互联网上汇聚的计算资源、存储资源、数据资源和应用资源正随着互联网规模的扩大而不断增加，互联网正在从传统意义的通信平台转化为泛在、智能的计算平台。与计算机系统这样的传统计算平台比较，互联网上还没有形成类似计算机操作系统的服务环境，以支持互联网资源的有效管理和综合利用。在传统计算机中已成熟的操作系统技术，已不再能适用于互联网环境，其根本原因在于：互联网资源的自主控制、自治对等、异构多尺度等基本特性，与传统计算机系统的资源特性存在本质上的不同。为了适应互联网资源的基本特性，形成承接互联网资源和互联网应用的一体化服务环境，面向互联网计算的虚拟计算环境（Internet-based Virtual Computing Environment，iVCE）的研究工作，使用户能够方便、有效地共享和利用开放网络上的资源。</p>
+<p>互联网上的云计算服务特征和自然界的云、水循环具有一定的相似性，因此，云是一个相当贴切的比喻。根据美国国家标准和技术研究院的定义，云计算服务应该具备以下几条特征：</p>
+<p>随需应变自助服务。</p>
+<p>随时随地用任何网络设备访问。</p>
+<p>多人共享资源池。</p>
+<p>快速重新部署灵活度。</p>
+<p>可被监控与量测的服务。</p>
+<p>一般认为还有如下特征：</p>
+<p>基于虚拟化技术快速部署资源或获得服务。</p>
+<p>减少用户终端的处理负担。</p>
+<p>降低了用户对于IT专业知识的依赖。</p>
+<p><h3>云计算发展历史</h3></p>
+<p>美国国家标准和技术研究院的云计算定义中明确了三种服务模式：</p>
+<p>软件即服务（SaaS）：消费者使用应用程序，但并不掌控操作系统、硬件或运作的网络基础架构。是一种服务观念的基础，软件服务供应商，以租赁的概念提供客户服务，而非购买，比较常见的模式是提供一组账号密码。例如：Adobe Creative Cloud，Microsoft CRM与Salesforce.com。</p>
+<p>平台即服务（PaaS）：消费者使用主机操作应用程序。消费者掌控运作应用程序的环境（也拥有主机部分掌控权），但并不掌控操作系统、硬件或运作的网络基础架构。平台通常是应用程序基础架构。例如：Google App Engine。</p>
+<p>基础设施即服务（IaaS）：消费者使用“基础计算资源”，如处理能力、存储空间、网络组件或中间件。消费者能掌控操作系统、存储空间、已部署的应用程序及网络组件（如防火墙、负载平衡器等），但并不掌控云基础架构。例如：Amazon AWS、Rackspace。</p>
+<p><h3>云计算部署模型</h3></p>
+美国国家标准和技术研究院的云计算定义中也涉及了关于云计算的部署模型：
+<p>公有云（Public Cloud）</p>
+简而言之，公用云服务可透过网络及第三方服务供应者，开放给客户使用，“公用”一词并不一定代表“免费”，但也可能代表免费或相当廉价，公用云并不表示用户数据可供任何人查看，公用云供应者通常会对用户实施使用访问控制机制，公用云作为解决方案，既有弹性，又具备成本效益。
+<p>私有云（Private Cloud）</p>
+私有云具备许多公用云环境的优点，例如弹性、适合提供服务，两者差别在于私有云服务中，数据与程序皆在组织内管理，且与公用云服务不同，不会受到网络带宽、安全疑虑、法规限制影响；此外，私有云服务让供应者及用户更能掌控云基础架构、改善安全与弹性，因为用户与网络都受到特殊限制。
+<p>社群云（Community Cloud）</p>
+社群云由众多利益相仿的组织掌控及使用，例如特定安全要求、共同宗旨等。社群成员共同使用云数据及应用程序。
+<p>混合云（Hybrid Cloud）</p>
+混合云结合公用云及私有云，这个模式中，用户通常将非企业关键信息外包，并在公用云上处理，但同时掌控企业关键服务及数据。
+<p><h3>云计算应用</h3></p>
+<p>云教育</p>
+<p>教育在云技术平台上的开发和应用，被称为“教育云”。云教育从信息技术的应用方面打破了传统教育的垄断和固有边界。通过教育走向信息化，使教育的不同参与者——教师、学生、家长、教育部门等在云技术平台上进行教育、教学、娱乐、沟通等功能。同时可以通过视频云计算的应用对学校特色教育课程进行直播和录播，并将信息储存至流存储服务器上，便于长时间和多渠道享受教育成果。</p>
+<p>云物联</p>
+<p>物联网是新一代信息技术浪潮的生力军。物联网通过智能感知、识别技术与普适计算广泛应用于互联网各方面。物联网作为互联网的业务和应用，随着其深入的发展和流量的增加，对数据储存和计算量的要求将带来对云计算的需求增加。并且在物联网的高级阶段，必将需要虚拟云计算技术的进一步应用。</p>
+<p>云社交</p>
+<p>云社交是一种虚拟社交应用。它以资源分享作为主要目标，将物联网、云计算和移动互联网相结合，通过其交互作用创造新型社交方式。云社交把社会资源进行测试、分类和集成，并向有需求的用户提供相应的服务。用户流量越大，资源集成越多，云社交的价值就越大。当前云社交已经具备了初步模型。
+<p>云安全</p>
+<p>云安全是云计算在互联网安全领域的应用。云安全融合了并行处理、网络技术、未知病毒等新兴技术，通过分布在各领域的客户端对互联网中存在异常的情况进行监测，获取最新病毒程序信息，将信息发送至服务端进行处理并推送最便捷的解决建议。通过云计算技术使整个互联网变成了终极安全卫士。</p>
+<p>云政务</p>
+<p>云计算应用于政府部门中，为政府部门降低成本提高效率做出贡献。由于云计算具有集约、共享、高效的特点，所以其应用将为政府部门降低20%至80%的成本。所以在电子商务延伸至电子政务的背景下，各国政府部门都在着力进行电子政务改革，研究云计算普遍应用的可能性。伴随政府改革的进行，政府部门也开始从自建平台到购买电信运营商的服务，这将为促进云计算的进一步发展并为电信运营商带来商机。</p>
+<p>云存储</p>
+<p>云存储是云计算的一个新的发展浪潮。云存储不是某一个具体的存储设备，而是互联网中大量的存储设备通过应用软件共同作用协同发展，进而带来的数据访问服务。云计算系统要运算和处理海量数据，为支持云计算系统需要配置大量的存储设备，这样云技术系统就自动转化为云存储系统。故而，云存储是在云计算的概念的延伸。</p>
+<p><h4>参考文献</h4></p>
+<p> 1.Danielson, Krissi. Distinguishing Cloud Computing from Utility Computing.</p>
+ <p>2.Ebizq.net. 2008-03-26 [2010-08-22].</p>
+<p> 3.Gartner Says Cloud Computing Will Be As Influential As E-business. </p><p>4.Gartner.com. [2010-08-22].</p>
+ <p>5.Gruman, Galen. What cloud computing really means. InfoWorld. 2008-04-07 [2009-06-02].</p>
+ <p>6.NIST. 美国国家标准与技术研究院对云计算的定义. 美国国家标准和技术研究院. 2011年9月 [2013年1月12日]. （原始内容存档于2012年10月12日）.</p>
+ <p>7.Regalado, Antonio. Who Coined 'Cloud Computing'?. MIT Technology Review. [2018-01-09] （英语）.</p>
+<p> 8.张德厚. 与学界合作Google推广“云端运算技术”. 中广新闻网. 2008年1月30日.
+ 雅虎惠普英特尔云计算挑战谷歌IBM. IT专家网. 2008年7月29日 [2009年9月10日]. （原始内容存档于2009年7月20日）.</p>
+<p> 9.Rackspace Open Sources Cloud Platform; Announces Plans to Collaborate with NASA and Other Industry Leaders on OpenStack Project 互联网档案馆的存档，存档日期2011-02-03.</p>
+ <p>10.OpenStack Is Now Open for Windows Server. [2011-01-08]. （原始内容存档于2010-10-25）.</p>
+ <p>11.Canonical joins the OpenStack community</p>
+ <p>12.Cisco joins OpenStack Community. [2011-02-27]. </p>
+ <p>13.Buyya, Rajkumar; Chee Shin Yeo, Srikumar Venugopal. Market-Oriented Cloud </p>
+ Computing: Vision, Hype, and Reality for Delivering IT Services as Computing Utilities (PDF). Department of Computer Science and Software Engineering, The University of Melbourne, Australia: 9. [2008-07-31]. </p>
+ <p>14.Open source fuels growth of cloud computing, software-as-a-service 互联网档案馆的存档，存档日期2012-10-15.</p>
+ <p>15.Mao, Ming; M. Humphrey. A Performance Study on the VM Startup Time in the Cloud. Proceedings of 2012 IEEE 5th International Conference on Cloud Computing (Cloud2012). 2012: 423. ISBN 978-1-4673-2892-0. doi:10.1109/CLOUD.2012.103.</p>
+ <p><center>部分资料及语段参考维基百科</center></p>
+
+              </div>
+              <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      Gridea
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://blog.dtnetwork.top/post/关于云计算服务的个人见解——云计算/" title="关于云计算服务的个人见解——云计算">关于云计算服务的个人见解——云计算</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+      <a href="https://blog.dtnetwork.top/tag/fgAeP9rZMH/"># 博文</a>
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+        <i class="fa fa-chevron-left"></i>
+        <a class="nav-pc-next" title="Valine Admin 配置手册" href="https://blog.dtnetwork.top/post/NWy33jlDY/">Valine Admin 配置手册</a class="nav-pc-next">
+        <a class="nav-mobile-prev" title="Valine Admin 配置手册" href="https://blog.dtnetwork.top/post/NWy33jlDY/">上一篇</a>
+      
+    </div>
+    <div class="nav-next">
+      
+        <a class="nav-pc-next" title="鼎天网络站内公告" href="https://blog.dtnetwork.top/post/news/">鼎天网络站内公告</a>
+        <a class="nav-mobile-next" title="鼎天网络站内公告" href="https://blog.dtnetwork.top/post/news/">下一篇</a>
+        <i class="fa fa-chevron-right"></i>
+      
+    </div>
+  </div>
+</div>
+              
+  
+<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+<div id="vcomments" style="padding: 10px 0px 0px 0px"></div>
+<script>
+new Valine({
+    el: '#vcomments' ,
+    appId: '3kUSPHm3Ha4ataII8c5Ems4V-MdYXbMMI',
+    appKey: 'NqQmRrBSmDIQCKPTekw6vGg9',
+    notify: 'true' === 'true', 
+    avatar:'custom', 
+    placeholder: '在此处写下你的评论吧',
+    pageSize: '5',
+    lang: 'zh-cn',
+    visitor: 'true' === 'true',
+    highlight: 'true' === 'true',
+    avatarForce: 'true' === 'true',
+});
+</script>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="gemini back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+    
+
+<link rel="stylesheet" href="/media/live2d/histoire/css/live2d.css" />
+<div class="box-scale">
+  <div id="landlord" style="left: 5px;bottom: 5px;" data-key="">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
+    <div class="live_talk_input_body">
+      <div class="live_talk_input_name_body">
+        <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
+      </div>
+      <div class="live_talk_input_text_body">
+        <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
+        <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
+      </div>
+    </div>
+    <input name="live_talk" id="live_talk" value="1" type="hidden" />
+    <div class="live_ico_box">
+      <div class="live_ico_item type_info" id="showInfoBtn"></div>
+      <div class="live_ico_item type_talk" id="showTalkBtn"></div>
+      
+      <div class="live_ico_item type_youdu" id="youduButton"></div>
+      <div class="live_ico_item type_quit" id="hideButton"></div>
+      <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
+      <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
+      <input id="duType" value="douqilai" type="hidden">
+      
+    </div>
+  </div>
+</div>
+<div id="open_live2d">召唤伊斯特瓦尔</div>
+<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+var message_Path = '/media/live2d/histoire/';
+let landlord = document.querySelector('#landlord');
+var apiKey = landlord.dataset.key;
+</script>
+<script type="text/javascript" src="/media/live2d/histoire/js/live2d.js"></script>
+<script type="text/javascript" src="/media/live2d/histoire/js/message.js"></script>
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'true'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target","_blank");
+      }
+    })
+  }
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+</script>
+      <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick= () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function(e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px; border: 1px solid #fff; border-radius: 2px;`;
+      lightImg.onclick = function() {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
+</script>
+    </div>
+  </body>
+  <script src="/media/js/motion.js"></script>
+</html>

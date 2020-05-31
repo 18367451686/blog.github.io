@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
     <title>Gridea</title>
-    <updated>2020-05-31T05:23:43.833Z</updated>
+    <updated>2020-05-31T05:30:14.341Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
@@ -11,35 +11,401 @@
     <icon>https://blog.dtnetwork.top/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://blog.dtnetwork.top/post/hello-gridea/</id>
-        <link href="https://blog.dtnetwork.top/post/hello-gridea/">
+        <title type="html"><![CDATA[Microsoft 365正式商业化]]></title>
+        <id>https://blog.dtnetwork.top/post/microsoft-365-zheng-shi-shang-ye-hua/</id>
+        <link href="https://blog.dtnetwork.top/post/microsoft-365-zheng-shi-shang-ye-hua/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <updated>2020-05-30T13:22:14.000Z</updated>
+        <content type="html"><![CDATA[<p>Microsoft 365将在2020.6.15正式商业化，之前申请过的用户请完成下面表单的填写。</p>
+<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=cOjeaHH6pEKkPivNchFa745kF3EsiLlDh0CtSYwd8sxUMDYySzZHS0ZBQkZOTVhWQjhYM1Y4QjZJWi4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<p>商业化后，将采用先试用，后付款的方式。<br>
+目前定价为每个账号10元/90天</p>
+<p>以下表单为试用申请，将在2020.6.15零点后开放填写</p>
+<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=cOjeaHH6pEKkPivNchFa745kF3EsiLlDh0CtSYwd8sxUNEg4Rjg0RFBTQkNYTUsyVlc4VkJDRU1TSC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<center>有任何问题请发送邮件到
+<strong>
+dtnetwork@126.com
+dtnetwork@yeah.net
+</strong>
+</center>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于翻墙]]></title>
+        <id>https://blog.dtnetwork.top/post/guan-yu-fan-qiang/</id>
+        <link href="https://blog.dtnetwork.top/post/guan-yu-fan-qiang/">
+        </link>
+        <updated>2020-05-23T15:29:14.000Z</updated>
+        <content type="html"><![CDATA[<center><iframe src="//player.bilibili.com/player.html?aid=200770014&bvid=BV1jz411B7Cx&cid=194314341&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></center>
+<h3>视频地址https://www.bilibili.com/video/BV1jz411B7Cx/</h3>
+近期在b站发了一个关于翻墙的视频，于是就有网友问我能不能发一个IOS系统翻墙的教程，我去YouTube上找了一下，还真有。
+由于视频格式原因，暂不支持在线观看，请点击下面链接下载后观看。
+<center><h2><strong><a href="http://47.116.4.145/videoplayback.bin" title="点击下载视频" target="_blank">点击下载</a></strong></h2></center>
+原视频链接https://m.youtube.com/watch?v=2rXuAw_8nac
+还有一个专门介绍IOS翻墙软件的视频，支持在线观看
+<center><video><source src="http://47.116.4.145/%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E7%BF%BB%E5%A2%99%E5%BA%94%E7%94%A8%20%282020%E5%B9%B4%E6%9C%80%E6%96%B0%29%20_%20%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%20APP.mp4" type="video/mp4"></video></center>
+如果上方没加载出视频框或者播放失败，请点击下面链接下载后观看
+<center><h2><strong><a href="http://47.116.4.145/%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E7%BF%BB%E5%A2%99%E5%BA%94%E7%94%A8%20%282020%E5%B9%B4%E6%9C%80%E6%96%B0%29%20_%20%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%20APP.mp4" target="_blank">点击下载</a></strong></h2></center>
+注册美区的appleID是使用某些应用翻墙的前提，因此附上官方教程
+https://discussionschinese.apple.com/thread/26900
+<p>还有网友自己写的<br>
+https://zhuanlan.zhihu.com/p/41369629</p>
+<p>最后，推荐给大家一个机场<br>
+https://lncn.org/<br>
+无需注册登录，直接点击复制即可</p>
+<p>无法访问的话站长从该网站搬运了一部分</p>
+<pre><code>ssr://MTk0LjUuNzguMTkxOjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObVZ4Lz9vYmZzcGFyYW09JnJlbWFya3M9NUwtRTZMLWM1TGljUVEmZ3JvdXA9VEc1amJpNXZjbWM,ssr://Mi41Ni4yNDAuMTA2OjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObVZ4Lz9vYmZzcGFyYW09JnJlbWFya3M9NUwtRTZMLWM1TGljUWcmZ3JvdXA9VEc1amJpNXZjbWM,ssr://NDUuOC4xNTkuNDM6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05tVngvP29iZnNwYXJhbT0mcmVtYXJrcz01TC1FNkwtYzVMaWNRdyZncm91cD1URzVqYmk1dmNtYw,ssr://OTEuMjA2LjkyLjM4OjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObVZ4Lz9vYmZzcGFyYW09JnJlbWFya3M9NUwtRTZMLWM1TGljUkEmZ3JvdXA9VEc1amJpNXZjbWM,ssr://NDUuMTM1LjEzNS4xNjE6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05XcDAvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJSUSZncm91cD1URzVqYmk1dmNtYw,ssr://ODUuMTE3LjIzNS4yNTE6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05XcDAvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJSZyZncm91cD1URzVqYmk1dmNtYw,
+ssr://MTk0LjE0Ny4zNS4xMTc6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05XcDAvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJSdyZncm91cD1URzVqYmk1dmNtYw,
+ssr://NDUuMTQwLjE2OC4zNjo2NTAwOm9yaWdpbjpyYzQ6cGxhaW46Ykc1amJpNXZjbWNnTldwMC8_b2Jmc3BhcmFtPSZyZW1hcmtzPTZJNnI1cGF2NTZlUlNBJmdyb3VwPVRHNWpiaTV2Y21j,
+ssr://NDUuMTQ0LjMuMzM6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ09HaHkvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJTUSZncm91cD1URzVqYmk1dmNtYw,
+ssr://NDUuMTM1LjEzNC4xOTQ6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ09HaHkvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJTZyZncm91cD1URzVqYmk1dmNtYw,
+ssr://NDUuMTM1LjEzNS4xODA6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ09HaHkvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJTdyZncm91cD1URzVqYmk1dmNtYw,
+ssr://NDUuMTM1LjEzNS4yMDE6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ09HaHkvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJUQSZncm91cD1URzVqYmk1dmNtYw,
+ssr://MTAzLjEyNC4xMDUuNDI6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05tdDMvP29iZnNwYXJhbT0mcmVtYXJrcz01clNiNXAySjU1LTJSUSZncm91cD1URzVqYmk1dmNtYw,
+ssr://NDUuODYuNzQuMTM2OjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObXQzLz9vYmZzcGFyYW09JnJlbWFya3M9NXJTYjVwMko1NS0yUmcmZ3JvdXA9VEc1amJpNXZjbWM,
+ssr://NDUuODYuNzQuMTM5OjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObXQzLz9vYmZzcGFyYW09JnJlbWFya3M9NXJTYjVwMko1NS0yUncmZ3JvdXA9VEc1amJpNXZjbWM,
+ssr://     MTg1LjE0OS4yMy41OTo2NTAwOm9yaWdpbjpyYzQ6cGxhaW46Ykc1amJpNXZjbWNnTm10My8_b2Jmc3BhcmFtPSZyZW1hcmtzPTVyU2I1cDJKNTUtMlNBJmdyb3VwPVRHNWpiaTV2Y21j
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[(视频)什么是IPV6]]></title>
+        <id>https://blog.dtnetwork.top/post/shi-pin-shi-me-shi-ipv6/</id>
+        <link href="https://blog.dtnetwork.top/post/shi-pin-shi-me-shi-ipv6/">
+        </link>
+        <updated>2020-05-17T07:40:50.000Z</updated>
+        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=370687156&bvid=BV1WZ4y1p77u&cid=192069266&page=1" scrolling="no" border="10" frameborder="no" framespacing="100" allowfullscreen="true"> </iframe>
+<p>视频地址https://www.bilibili.com/video/BV1WZ4y1p77u<br>
+转载自YouTube</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[站内搜索&全网搜索（BETA）]]></title>
+        <id>https://blog.dtnetwork.top/post/search/</id>
+        <link href="https://blog.dtnetwork.top/post/search/">
+        </link>
+        <updated>2020-05-10T00:15:12.000Z</updated>
+        <content type="html"><![CDATA[<h2>站内搜索</h2>
+<style type="text/css">;;
+#so360{white-space:nowrap}
+#so360_keyword{width:222
+#so360 form{margin:0;padding:0}px center;}
+#so360_submit{width:60outline:0;vertical-align:middle;padding-right: 95px;}
+#so360_keyword{background:url(https://p.ssl.qhimg.com/t01ab1a3fb05f0ee893.png)
+ no-repeat 242</style>
+<div id="so360">
+    <form action="http://www.so.com/s" target="_blank" id="so360form">
+   <input type="text" autocomplete="off" name="q" id="so360_keyword">
+        <input type="submit" id="so360_submit" value="搜 索">
+        <input type="hidden" name="ie" value="utf8">
+        <input type="hidden" name="src" value="zz_https://blog.dtnetwork.top/">
+        <input type="hidden" name="site" value="https://blog.dtnetwork.top/">
+        <input type="hidden" name="rg" value="1">
+    </form>
+</div>
+<h2>全网搜索</h2>
+<style type="text/css">;;
+#so360{white-space:nowrap}
+#so360_keyword{width:222
+#so360 form{margin:0;padding:0}px center;}
+#so360_submit{width:60outline:0;vertical-align:middle;padding-right: 95px;}
+#so360_keyword{background:url(https://p.ssl.qhimg.com/t01ab1a3fb05f0ee893.png)
+ no-repeat 242</style>
+<div id="so360">
+    <form action="http://www.so.com/s" target="_blank" id="so360form">
+   <input type="text" autocomplete="off" name="q" id="so360_keyword">
+        <input type="submit" id="so360_submit" value="搜 索">
+        <input type="hidden" name="ie" value="utf8">
+        <input type="hidden" name="src" value="zz_https://blog.dtnetwork.top/">
+        <input type="hidden" name="site" value="https://blog.dtnetwork.top/">
+        <input type="hidden" name="rg" value="0">
+    </form>
+</div>
+<p>#基于360搜索#</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[建站历程]]></title>
+        <id>https://blog.dtnetwork.top/post/jian-zhan-li-cheng/</id>
+        <link href="https://blog.dtnetwork.top/post/jian-zhan-li-cheng/">
+        </link>
+        <updated>2020-05-09T14:26:04.000Z</updated>
+        <content type="html"><![CDATA[<script>
+(function(){
+var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<p>2020/4/16--鼎天网络-主站正式上线</p>
+<p>2020/4/16--成功完成myssl及trust Asia的HTTPS认证，安全等级A+</p>
+<p>2020/4/16--鼎天网络-主站被谷歌搜索引擎收录</p>
+<p>2020/4/17--鼎天网络博客站上线（即主页菜单栏中神秘小站）</p>
+<p>2020/4/18--鼎天网络博客站被谷歌搜索引擎收录</p>
+<p>2020/4/30--鼎天网络博客站与主站全面对接，开始试运营</p>
+<p>2020/5/1--博客站正式开始更新技术文章</p>
+<p>2020/5/11--鼎天网络博客站被百度收录</p>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用kms激活你的Windows/office]]></title>
+        <id>https://blog.dtnetwork.top/post/kms/</id>
+        <link href="https://blog.dtnetwork.top/post/kms/">
+        </link>
+        <updated>2020-05-03T07:10:05.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://blog.dtnetwork.top/post-images/1588491078866.png" alt="" loading="lazy"></figure>
+  <script>
+(function(){
+var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+  <script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+<h1>说明</h1>
+<p>【①】激活Windows系统要求：尽可能不使用淘宝/电脑城奸商系统，某吧某坛大神精简系统，某木风某白菜某之家某花园某家园魔改ghost系统，等一系列被人二次修改的系统，那么去哪里找官方原版系统？浏览器地址栏输入 http://msdn.itellyou.cn/ （I Tell You官网）然后回车即可</p>
+<p>【②】Windows7/8/8.1只支持专业版和企业版，windows10支持全系,OEM版什么的就肯定不能用kms激活，一般从msdn.itellyou.cn这里下载系统</p>
+<p>【③】激活Office要求：请勿使用各种精简版或上古版本（上古版本本身有注册机不需要KMS），那么去哪里下载原版office？浏览器地址栏输入otp.landian.vip（office tool plus）然后回车即可</p>
+<p>【④】脚本运行的话，windows自带的机制会询问你是否要运行！因为脚本是申请了管理员权限的</p>
+<p>【⑤】0x80070005错误一般是你没用管理员权限运行CMD，请检查是否被拦截运行</p>
+<p>【⑥】清除Windows的kms之后需要重启电脑才能重新激活！</p>
+<p>问题总结：很多时候你根本不用到处问来问去，直接根据出错代码自己百度搜索出错原因就行了！</p>
+<h1>Windows手动代码激活</h1>
+打开powershell（管理员）直接输入下列命令
+<pre><code>slmgr.vbs -upk
+slmgr.vbs -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX      #不同系统版本这里的激活码不一样，请往下翻寻找对应的密钥！
+slmgr.vbs -skms kms.dtnetwork.top      #这是鼎天网络自建的kms服务器
+slmgr.vbs -ato
+slmgr.vbs -dlv
+</code></pre>
+<p><strong>注意，井号后面的汉字内容无需复制</strong></p>
+<h1>具体的密钥请访问微软官方文档</h1>
+网址如下
+<pre><code>https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys
+</code></pre>
+<h1>手动激活Office</h1>
+手动激活OFFICE KMS手动激活Office有点复杂，直接给大家推荐一款软件<strong>office tool plus</strong>
+然后下载软件
+<pre><code>官网：https://otp.landian.vip/zh-cn/
+软件下载链接：https://otp.landian.vip/zh-cn/download.html
+</code></pre>
+<p>在激活菜单里安装对应证书，在下方的kms服务器里填写<strong>kms.dtnetwork.top</strong><br>
+端口为默认端口（1688），不填写也可以正常激活的。</p>
+<blockquote>
+<p>写在最后<br>
+如果出现无法激活，请在下方留言，并附上对应的错误代码或者报错的信息<br>
+另外还有一个备用的kms服务器<br>
+kms.cangshui.net</p>
+</blockquote>
+<p>#图片及部分内容来源于网络</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[赞助博客]]></title>
+        <id>https://blog.dtnetwork.top/post/zan-zhu-bo-ke/</id>
+        <link href="https://blog.dtnetwork.top/post/zan-zhu-bo-ke/">
+        </link>
+        <updated>2020-05-02T14:38:26.000Z</updated>
+        <content type="html"><![CDATA[  <script>
+(function(){
+var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+  <script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+<p>由于后期运营成本的原因，本站欢迎赞助。注意，如需退款请于30天内<strong><a href="https://frontpage.dtnetwork.top/%E7%AB%99%E9%95%BF%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F.html" title="点击查看站长联系方式" target="_blank">联系站长</a></strong><br>
+一元以下概不退款，谢谢理解<br>
+支付宝：<br>
+<img src="https://blog.dtnetwork.top/post-images/1588430467537.png" alt="" loading="lazy"></p>
+<p>微信：<br>
+<img src="https://blog.dtnetwork.top/post-images/1588430634982.JPG" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Office 365免费使用]]></title>
+        <id>https://blog.dtnetwork.top/post/free-microsoft-office-365/</id>
+        <link href="https://blog.dtnetwork.top/post/free-microsoft-office-365/">
+        </link>
+        <updated>2020-05-02T13:05:34.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://blog.dtnetwork.top/post-images/1588426182813.jpg" alt="" loading="lazy"><br>
+鼎天网络作为微软开发者，通过内部途径获得了Microsoft Office 365的使用资格(现已改名为Microsoft365)，理论上可以永久使用。<br>
+现在开放申请使用（目前还剩约5个许可证，审核会有一定门槛）</p>
+<pre><code>https://forms.office.com/Pages/ResponsePage.aspx?id=cOjeaHH6pEKkPivNchFa745kF3EsiLlDh0CtSYwd8sxUMElWT0FQS0EzSVM3SlhFVzY1UUZCWEM4MC4u
+</code></pre>
+<p>复制上面链接到浏览器打开，完成表单的填写，我们会尽快审核。</p>
+<h2>另外，为了满足网友们的体验需求，提供一个免费的共享账号</h2>
+此账号如果无法登录请将详细报错写在留言区，站长会尽快处理。
+<h2>注意，此账号严禁恶意修改密码或者恶意删除他人文件，此账号所有文件将会被公开，如果被恶意删除请联系站长，站长会尽力找回（可能会出现无法找回的情况，请做好本地备份，不要存储重要或者机密文件，如有机密泄露及丢失等情况本站概不负责）</h2>
+<blockquote>
+<p>用户详细信息<br>
+显示名称: share1<br>
+用户名: share1@essesoul2020.onmicrosoft.com<br>
+密码: Yon72513</p>
+</blockquote>
+<center><strong><a href="https://frontpage.dtnetwork.top/%E7%AB%99%E9%95%BF%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F.html" title="点击查看站长联系方式" target="_blank">联系站长</a></strong></center>
+<center><strong><a href="https://www.office.com/" title="Microsoft Office官网" target="_blank">Microsoft Office官网</a></strong></center>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加速你的SS/SSR服务器]]></title>
+        <id>https://blog.dtnetwork.top/post/jia-su-ni-de-ssr-fu-wu-qi/</id>
+        <link href="https://blog.dtnetwork.top/post/jia-su-ni-de-ssr-fu-wu-qi/">
+        </link>
+        <updated>2020-05-02T03:40:07.000Z</updated>
+        <content type="html"><![CDATA[  <script>
+(function(){
+var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+  <script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+<h1>说明</h2>
+<p>本文将会提供两种加速方式，分别是谷歌的BBR加速和锐速加速</p>
+<h2>两者区别</h2>
+BBR采用了智能的算法，预估了可能丢失的数据包，节约流量和带宽，但加速空间不大。
+<p>锐速采用了暴力算法，采用重复发包，多次发包等方法来防止数据丢失，效果极好，速度可以提升10倍以上，极大地降低了延迟。但是会导致服务器流量和带宽增加。（流量一般是BBR加速的2-3倍）</p>
+<p>请根据需求自行选择</p>
+<h1>方法一：</h1>
+<h2>【谷歌BBR加速】</h2>
+此加速教程为谷歌BBR加速,大部分服务器框架可以装BBR加速，加速后对速度的提升很明显，该加速方法是开机自动启动，部署一次就可以了。
+<h2>部署脚本</h2>
+<pre><code>yum -y install wget wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh chmod +x bbr.sh ./bbr.sh
+</code></pre>
+<p>把上面整个代码复制后粘贴进去，不动的时候按回车，然后耐心等待，最后重启vps服务器即可。</p>
+<p>复制并粘贴代码后，按回车键确认</p>
+<p>按任意键继续部署</p>
+<p>最后输入y重启服务器，如果输入y提示command not found ，接着输入reboot来重启服务器，确保加速生效，bbr加速脚本是开机自动启动，装一次就可以了。</p>
+<p>服务器重启成功并重新连接服务器后，输入命令lsmod | grep bbr 如果出现tcp_bbr字样表示bbr已安装并启动成功。</p>
+<h1>方法二：</h1>
+<h2>【锐速加速】</h2>
+<h2>一键更换内核脚本（需先执行此脚本）</h2>
+<pre><code>wget -N --no-check-certificate https://freed.ga/kernel/ruisu.sh &amp;&amp; bash ruisu.sh
+</code></pre>
+<p>#脚本执行过程中，请勿进行任何操作。待服务器重启后，重新连接安装锐速即可。</p>
+<h2>锐速安装脚本</h2>
+<pre><code>wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh &amp;&amp; bash serverspeeder.sh
+</code></pre>
+<p>#若提示：The name of network interface is not eth0, please retry after changing the name.请使用备用脚本</p>
+<h2>备用脚本</h2>
+<pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh &amp;&amp; bash serverspeeder-all.sh
+</code></pre>
+<p>#如果搭建碰到问题可以留言，站长会尽快处理！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何搭建属于自己的SS/SSR服务器？【法二】]]></title>
+        <id>https://blog.dtnetwork.top/post/ru-he-da-jian-shu-yu-zi-ji-de-ssssr-fu-wu-qi-fa-er/</id>
+        <link href="https://blog.dtnetwork.top/post/ru-he-da-jian-shu-yu-zi-ji-de-ssssr-fu-wu-qi-fa-er/">
+        </link>
+        <updated>2020-05-02T03:32:03.000Z</updated>
+        <content type="html"><![CDATA[  <script>
+(function(){
+var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
+</script>
+  <script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+<p>在之前方法一提供的脚本中，大量数据只能在服务器后台才能进行管理，于是，站长又找来的另一个脚本，支持web查询流量及配置信息，更加方便，快捷。<br>
+介绍<br>
+一个Shell脚本，集成SSR多用户管理，流量限制，加密更改等基本操作。是一个基于ShadowsocksR官方的mujson的辅助脚本。方便用户操作，并且支持快速构建SSR服务环境。</p>
+<h2>系统支持</h2>
+Ubuntu 14
+Ubuntu 16
+Debian 7
+Debian 8
+CentOS 6
+CentOS 7
+<h2>功能</h2>
+全自动无人值守安装，服务端部署只需一条命令，您和SSR都是如此的优雅：）
+一键开启、关闭SSR服务
+添加、删除、修改用户端口、密码和连接数限制
+支持傻瓜式用户添加,小白也可以用
+自由限制用户端口流量使用及端口网速
+自动修改防火墙规则
+自助修改SSR加密方式、协议、混淆等参数
+自动统计，方便查询每个用户端口的流量使用情况
+自动安装Libsodium库以支持Chacha20等加密方式
+支持用户二维码生成(仅开发版可用)
+支持一键构建ss-panel-V3-mod,前端后端自动对接，无需额外操作（仅开发版可用）
+傻瓜式的BBR、锐速、LotServer一键构建（有风险，仅开发版可用）
+可自定义的服务器巡检，故障自动重启服务，确保链接稳定有效
+可对配置进行备份、还原，迁移服务器只需在新服务器上还原配置，无需重复设置
+支持IP黑名单功能，可通过端口查询，直接加入黑名单，禁止该IP访问服务器的所有服务
+允许针对不同用户限制帐号有效期，到期自动删除帐号
+<h2>安装脚本</h2>
+<pre><code>wget -q -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/SSR-Bash-Python/master/install.sh &amp;&amp; bash install.sh
+</code></pre>
+<h2>卸载脚本</h2>
+<pre><code>wget -q -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/SSR-Bash-Python/master/install.sh &amp;&amp; bash install.sh uninstall
+</code></pre>
+<h2>离线安装</h2>
+此方法可用于网络情况不好，导致缺少文件的情况.亦可下载该脚本，用于备份
+<pre><code>wget -q -N --no-check-certificate https://down.fdos.me/install.sh &amp;&amp; bash install.sh
+</code></pre>
+<blockquote>
+<h2>写在最后</h2>
+此脚本来自GitHub，链接https://github.com/FunctionClub/SSR-Bash-Python</blockquote>
 ]]></content>
     </entry>
 </feed>
