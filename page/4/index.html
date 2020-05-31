@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8"/>
+      <meta charset="UTF-8"/>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <meta name="keywords" content="DT,DTNETWORK,鼎天网络，鼎天科技，鼎天科技工作室，鼎天网络工作室，鼎天网络科技工作室,dtblog,鼎天网络博客，鼎天网络工作室博客">
 <meta name="description" content="温故而知新">
 <meta name="theme-color" content="#000">
-<title>Valine Admin 配置手册 | Gridea</title>
+<title>Gridea</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1590903163905">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/gemini.css">
@@ -47,8 +47,6 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-    <meta name="description" content="Valine Admin 配置手册" />
-    <meta name="keywords" content="博文,技术分享" />
   </head>
   <body>
     <div class="head-top-line"></div>
@@ -83,7 +81,7 @@ var _hmt = _hmt || [];
             
               
             
-            <li class="nav-item ">
+            <li class="nav-item nav-item-active">
               
               
                 <a href="/" target="_self">
@@ -174,23 +172,8 @@ var _hmt = _hmt || [];
       
       <div class="section-layout gemini ">
         <div class="section-layout-wrapper">
-          
-
-<div class="sidebar">
-  
-    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
-      
-        <div class="post-list-sidebar">
-          <div class="sidebar-title">
-            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active">文章目录</span>
-            <span id="metaSideBar" class="sidebar-title-item">站点概览</span>
-          </div>
-        </div>
-      
-      <div class="sidebar-body gemini" id="sidebar_body">
-        
-          
-            
+          <div id="sidebarMeta" class="sidebar">
+    
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
@@ -232,95 +215,30 @@ var _hmt = _hmt || [];
 
 
 </div>
-          
-        
-      </div>
-    </div>
-  
 </div>
 <script>
-  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
-  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
-  const SLIDE_UP_IN = 'slide-up-in';
-
-  let sidebar = document.querySelector('#sidebar'),
-  tocSideBar = document.querySelector('#tocSideBar'),
-  metaSideBar = document.querySelector('#metaSideBar'),
-  postToc = document.querySelector('#post_toc'),
-  postSiteMeta = document.querySelector('#post_side_meta'),
-  sidebarTitle = document.querySelector('.sidebar-title'),
-  sidebarBody = document.querySelector('#sidebar_body');
-
-  tocSideBar && tocSideBar.addEventListener('click', (e) => {
-    toggleSidebar(e);
-  });
-
-  metaSideBar && metaSideBar.addEventListener('click', (e) => {
-    toggleSidebar(e);
-  });
-
-  function toggleSidebar(e) {
-    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
-    if (currentTitle == e.srcElement) {
-      return ;
-    }
-    let current, showElement, hideElement;
-    if (e.srcElement == metaSideBar) {
-      showElement = postSiteMeta;
-      hideElement = postToc;
-    } else if (e.srcElement == tocSideBar){
-      showElement = postToc;
-      hideElement = postSiteMeta;
-    }
-    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
-    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
-
-    window.Velocity(hideElement, 'stop');
-    window.Velocity(hideElement, 'transition.slideUpOut', {
-      display: 'none',
-      duration: 200,
-      complete: function () {
-        window.Velocity(showElement, 'transition.slideDownIn', {
-          duration: 200
-        });
+  let sidebarMeta = document.querySelector('#sidebarMeta');
+  let scheme = 'gemini';
+  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
+  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
+    document.addEventListener('scroll', function(e) {
+      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
+        sidebarWrapper.classList.add('home-sidebar-fixed')
+      } else {
+        sidebarWrapper.classList.remove('home-sidebar-fixed')
       }
-    })
-    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
-    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+    });
   }
-
-  postToc && postToc.addEventListener('transitionend', function() {
-    this.classList.remove(SLIDE_UP_IN);
-  });
-
-  if (sidebarBody) {
-    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
-      let hasFix = false;
-      let scrollEl = document.querySelector('.main-continer');
-      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
-      window.addEventListener('scroll', function(e) {
-        if (document.scrollingElement.scrollTop >= limitTop) {
-          if (!hasFix) {
-            sidebar.classList.add('sidebar-fixed');
-            hasFix = true;
-          }
-        } else {
-          if (hasFix) {
-            sidebar.classList.remove('sidebar-fixed');
-            hasFix = false;
-          }
-        }
-      });
-    }
-  }
-  
-</script>
-          <div class="section-box box-shadow-wrapper">
-            <div class="section bg-color post post-page">
-              <header class="post-header">
+  </script>
+          <div class="section-box gemini">
+            <section class="section  posts-expand slide-down-in">
+              
+  <article class="post-list-box  post box-shadow-wrapper">
+    <div class="article-wrapper bg-color">
+      <header class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://blog.dtnetwork.top/post/NWy33jlDY/">
-      Valine Admin 配置手册
+    <a class="post-title-link" href="https://blog.dtnetwork.top/post/hello-gridea/">
+      Hello Gridea
     </a>
   </h1>
   <div class="post-meta">
@@ -328,7 +246,7 @@ var _hmt = _hmt || [];
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
-      <span>2020-05-01</span>
+      <span>2018-12-12</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
@@ -337,14 +255,8 @@ var _hmt = _hmt || [];
         <span class="pc-show">分类于</span>
         
           
-            <a href="https://blog.dtnetwork.top/tag/fgAeP9rZMH/">
-              <span>博文</span>
-            </a>、
-          
-        
-          
-            <a href="https://blog.dtnetwork.top/tag/pJIAMClh49/">
-              <span>技术分享</span>
+            <a href="https://blog.dtnetwork.top/tag/7vSBZ8Hd8/">
+              <span>Gridea</span>
             </a>
           
         
@@ -358,126 +270,83 @@ var _hmt = _hmt || [];
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>480<span class="pc-show">字数</span></span>
+      <span>298<span class="pc-show">字数</span></span>
     </span>
-    
-      
-      
-        
-      
-      <span id="/post/NWy33jlDY/" data-flag-title="Valine Admin 配置手册" class="meta-item pc-show leancloud_visitors">
-        <span class="post-meta-divider">|</span>
-        <i class="fa fa-eye"></i>
-        <span>浏览量：<span class="leancloud-visitors-count" ></span></span>
-      </span>
     
   </div>
 </header>
-              <div class="post-body next-md-body" id="post_body">
-                  <script>
-(function(){
-var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
-document.write('<script src="' + src + '" id="sozz"><\/script>');
-})();
-</script>
-  <script>
-    (function(){
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
-            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        }
-        else {
-            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-        }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
-    })();
-    </script>
-<h2><p>Valine Admin 是 Valine 评论系统的扩展和增强，本站使用该插件实现评论邮件通知、评论管理、垃圾评论过滤等功能。支持完全自定义的邮件通知模板，基于 Akismet API 实现准确的垃圾评论过滤。</p></h2>
-<p>Github 仓库链接https://github.com/DesertsP/Valine-Admin.git</p>
-<h1>云引擎"一键"部署</h1>
-在 Leancloud 云引擎设置界面，填写代码库并保存：https://github.com/DesertsP/Valine-Admin.git
-<p>在设置页面，设置环境变量以及 Web 二级域名。</p>
-SITE_NAME[必填]博客名称
-SITE_URL[必填]首页地址
-SMTP_SERVICE[新版支持]邮件服务提供商，支持 QQ、163、126、Gmail 以及 更多
-SMTP_USER[必填] SMTP 登录用户
-SMTP_PASS[必填] SMTP 登录密码（QQ邮箱需要获取独立密码）
-SENDER_NAME[必填]发件人
-SENDER_EMAIL[必填]发件邮箱
-ADMIN_URL[建议] Web 主机二级域名，用于自动唤醒
-BLOGGER_EMAIL[可选]博主通知收件地址，默认使用 SENDER_EMAIL
-AKISMET_KEY[可选] Akismet Key 用于垃圾评论检测，设为 MANUAL_REVIEW 开启人工审核，留空不使用反垃圾
-<stront>以上必填参数请务必正确设置。</strong>
-<p>切换到部署标签页，分支使用 master，点击部署即可</p>
-<p>第一次部署需要花点时间。</p>
-<p>评论管理。访问设置的二级域名 https://域名/sign-up，注册管理员登录信息，如：https://deserts.leanapp.cn/sign-up<br>
-注：使用原版 Valine 如果遇到注册页面不显示直接跳转至登录页的情况，请手动删除 _User 表中的全部数据。</p>
-<p>此后，可以通过之前设置的域名管理评论。<br>
-部分内容来自腾讯云开发者社区。</p>
-
-              </div>
-              <div class="post-footer">
-  <ul class="post-copyright">
-    <li class="post-copyright-author">
-      <strong>本文作者：</strong>
-      Gridea
-    </li>
-    <li class="post-copyright-link">
-      <strong>本文链接：</strong>
-      <a href="https://blog.dtnetwork.top/post/NWy33jlDY/" title="Valine Admin 配置手册">Valine Admin 配置手册</a>
-    </li>
-    <li class="post-copyright-license">
-      <strong>版权声明： </strong>
-      本博客所有文章除特别声明外，转载请注明出处！
-    </li>
-  </ul>
-  <div class="tags">
-    
-      <a href="https://blog.dtnetwork.top/tag/fgAeP9rZMH/"># 博文</a>
-    
-      <a href="https://blog.dtnetwork.top/tag/pJIAMClh49/"># 技术分享</a>
-    
-  </div>
-  <div class="nav">
-    <div class="nav-prev">
-      
-        <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="【羊毛党】adobe2020全家桶破解方法" href="https://blog.dtnetwork.top/post/NX_0wV_TA/">【羊毛党】adobe2020全家桶破解方法</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="【羊毛党】adobe2020全家桶破解方法" href="https://blog.dtnetwork.top/post/NX_0wV_TA/">上一篇</a>
-      
-    </div>
-    <div class="nav-next">
-      
-        <a class="nav-pc-next" title="关于云计算服务的个人见解——云计算" href="https://blog.dtnetwork.top/post/关于云计算服务的个人见解——云计算/">关于云计算服务的个人见解——云计算</a>
-        <a class="nav-mobile-next" title="关于云计算服务的个人见解——云计算" href="https://blog.dtnetwork.top/post/关于云计算服务的个人见解——云计算/">下一篇</a>
-        <i class="fa fa-chevron-right"></i>
-      
-    </div>
-  </div>
-</div>
+      <div class="post-body">
+        
+          
+          
+            
+            
+              <p>
               
-  
-<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
-<div id="vcomments" style="padding: 10px 0px 0px 0px"></div>
-<script>
-new Valine({
-    el: '#vcomments' ,
-    appId: '3kUSPHm3Ha4ataII8c5Ems4V-MdYXbMMI',
-    appKey: 'NqQmRrBSmDIQCKPTekw6vGg9',
-    notify: 'true' === 'true', 
-    avatar:'custom', 
-    placeholder: '在此处写下你的评论吧',
-    pageSize: '5',
-    lang: 'zh-cn',
-    visitor: 'true' === 'true',
-    highlight: 'true' === 'true',
-    avatarForce: 'true' === 'true',
-});
-</script>
+            
+              <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 
-            </div>
+              
+                <img src="/post-images/hello-gridea.png" />
+              
+            
+          
+        
+        
+        <div class="post-button text-center">
+          <a class="btn" href="https://blog.dtnetwork.top/post/hello-gridea/" rel="contents">
+            阅读全文 »
+          </a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </article>
+  
+              
+              
+<div class="page bg-color">
+  <ul class="pagination-ul">
+    
+      <li class="pagination-dir">
+        <a href="https://blog.dtnetwork.top/page/3/">
+          <i class="fa fa-angle-left"></i>
+        </a>
+      </li>
+    
+    
+      
+        <li class="pagination-li ">
+            <a href="/page/../">
+              1
+            </a>
+        </li>
+      
+        <li class="pagination-li ">
+            <a href="/page/2">
+              2
+            </a>
+        </li>
+      
+        <li class="pagination-li ">
+            <a href="/page/3">
+              3
+            </a>
+        </li>
+      
+        <li class="pagination-li pagination-active">
+            <a href="/page/4">
+              4
+            </a>
+        </li>
+      
+    
+    
+  </ul>
+</div>
+            </section>
           </div>
         </div>
       </div>
