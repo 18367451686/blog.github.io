@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
-    <title>Gridea</title>
-    <updated>2020-05-31T05:35:15.279Z</updated>
+    <title>鼎天网络博客</title>
+    <updated>2020-05-31T05:36:05.674Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>鼎天网络博客站</subtitle>
     <logo>https://blog.dtnetwork.top/images/avatar.png</logo>
     <icon>https://blog.dtnetwork.top/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 鼎天网络博客</rights>
     <entry>
         <title type="html"><![CDATA[Microsoft 365正式商业化]]></title>
         <id>https://blog.dtnetwork.top/post/microsoft-365-zheng-shi-shang-ye-hua/</id>
