@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
     <title>鼎天网络博客</title>
-    <updated>2020-10-10T11:21:51.902Z</updated>
+    <updated>2020-10-10T11:50:01.328Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
@@ -10,130 +10,6 @@
     <logo>https://blog.dtnetwork.top/images/avatar.png</logo>
     <icon>https://blog.dtnetwork.top/favicon.ico</icon>
     <rights>All rights reserved 2020, 鼎天网络博客</rights>
-    <entry>
-        <title type="html"><![CDATA[关于论坛]]></title>
-        <id>https://blog.dtnetwork.top/post/guan-yu-lun-tan/</id>
-        <link href="https://blog.dtnetwork.top/post/guan-yu-lun-tan/">
-        </link>
-        <updated>2020-07-08T14:45:21.000Z</updated>
-        <content type="html"><![CDATA[<p>鼎天网络官方论坛已上线，网址：<br>
-https://bbs.dtnetwork.top/</p>
-<p>欢迎前往注册</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft 365正式商业化]]></title>
-        <id>https://blog.dtnetwork.top/post/microsoft-365-zheng-shi-shang-ye-hua/</id>
-        <link href="https://blog.dtnetwork.top/post/microsoft-365-zheng-shi-shang-ye-hua/">
-        </link>
-        <updated>2020-05-30T13:22:14.000Z</updated>
-        <content type="html"><![CDATA[<p>Microsoft 365将在2020.6.15正式商业化，之前申请过的用户请完成下面表单的填写。</p>
-<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=cOjeaHH6pEKkPivNchFa745kF3EsiLlDh0CtSYwd8sxUMDYySzZHS0ZBQkZOTVhWQjhYM1Y4QjZJWi4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-<p>商业化后，将采用先试用，后付款的方式。<br>
-目前定价为每个账号10元/90天</p>
-<p>以下表单为试用申请，将在2020.6.15零点后开放填写</p>
-<iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=cOjeaHH6pEKkPivNchFa745kF3EsiLlDh0CtSYwd8sxUNEg4Rjg0RFBTQkNYTUsyVlc4VkJDRU1TSC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-<center>有任何问题请发送邮件到
-<strong>
-dtnetwork@126.com
-dtnetwork@yeah.net
-</strong>
-</center>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于翻墙]]></title>
-        <id>https://blog.dtnetwork.top/post/guan-yu-fan-qiang/</id>
-        <link href="https://blog.dtnetwork.top/post/guan-yu-fan-qiang/">
-        </link>
-        <updated>2020-05-23T15:29:14.000Z</updated>
-        <content type="html"><![CDATA[<center><iframe src="//player.bilibili.com/player.html?aid=200770014&bvid=BV1jz411B7Cx&cid=194314341&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></center>
-<h3>视频地址https://www.bilibili.com/video/BV1jz411B7Cx/</h3>
-近期在b站发了一个关于翻墙的视频，于是就有网友问我能不能发一个IOS系统翻墙的教程，我去YouTube上找了一下，还真有。
-由于视频格式原因，暂不支持在线观看，请点击下面链接下载后观看。
-<center><h2><strong><a href="http://47.116.4.145/videoplayback.bin" title="点击下载视频" target="_blank">点击下载</a></strong></h2></center>
-原视频链接https://m.youtube.com/watch?v=2rXuAw_8nac
-还有一个专门介绍IOS翻墙软件的视频，支持在线观看
-<center><video><source src="http://47.116.4.145/%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E7%BF%BB%E5%A2%99%E5%BA%94%E7%94%A8%20%282020%E5%B9%B4%E6%9C%80%E6%96%B0%29%20_%20%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%20APP.mp4" type="video/mp4"></video></center>
-如果上方没加载出视频框或者播放失败，请点击下面链接下载后观看
-<center><h2><strong><a href="http://47.116.4.145/%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA%E7%BF%BB%E5%A2%99%E5%BA%94%E7%94%A8%20%282020%E5%B9%B4%E6%9C%80%E6%96%B0%29%20_%20%E5%AE%8C%E5%85%A8%E5%85%8D%E8%B4%B9%E7%BF%BB%E5%A2%99%20APP.mp4" target="_blank">点击下载</a></strong></h2></center>
-注册美区的appleID是使用某些应用翻墙的前提，因此附上官方教程
-https://discussionschinese.apple.com/thread/26900
-<p>还有网友自己写的<br>
-https://zhuanlan.zhihu.com/p/41369629</p>
-<p>最后，推荐给大家一个机场<br>
-https://lncn.org/<br>
-无需注册登录，直接点击复制即可</p>
-<p>无法访问的话站长从该网站搬运了一部分</p>
-<pre><code>ssr://MTk0LjUuNzguMTkxOjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObVZ4Lz9vYmZzcGFyYW09JnJlbWFya3M9NUwtRTZMLWM1TGljUVEmZ3JvdXA9VEc1amJpNXZjbWM,ssr://Mi41Ni4yNDAuMTA2OjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObVZ4Lz9vYmZzcGFyYW09JnJlbWFya3M9NUwtRTZMLWM1TGljUWcmZ3JvdXA9VEc1amJpNXZjbWM,ssr://NDUuOC4xNTkuNDM6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05tVngvP29iZnNwYXJhbT0mcmVtYXJrcz01TC1FNkwtYzVMaWNRdyZncm91cD1URzVqYmk1dmNtYw,ssr://OTEuMjA2LjkyLjM4OjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObVZ4Lz9vYmZzcGFyYW09JnJlbWFya3M9NUwtRTZMLWM1TGljUkEmZ3JvdXA9VEc1amJpNXZjbWM,ssr://NDUuMTM1LjEzNS4xNjE6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05XcDAvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJSUSZncm91cD1URzVqYmk1dmNtYw,ssr://ODUuMTE3LjIzNS4yNTE6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05XcDAvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJSZyZncm91cD1URzVqYmk1dmNtYw,
-ssr://MTk0LjE0Ny4zNS4xMTc6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05XcDAvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJSdyZncm91cD1URzVqYmk1dmNtYw,
-ssr://NDUuMTQwLjE2OC4zNjo2NTAwOm9yaWdpbjpyYzQ6cGxhaW46Ykc1amJpNXZjbWNnTldwMC8_b2Jmc3BhcmFtPSZyZW1hcmtzPTZJNnI1cGF2NTZlUlNBJmdyb3VwPVRHNWpiaTV2Y21j,
-ssr://NDUuMTQ0LjMuMzM6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ09HaHkvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJTUSZncm91cD1URzVqYmk1dmNtYw,
-ssr://NDUuMTM1LjEzNC4xOTQ6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ09HaHkvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJTZyZncm91cD1URzVqYmk1dmNtYw,
-ssr://NDUuMTM1LjEzNS4xODA6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ09HaHkvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJTdyZncm91cD1URzVqYmk1dmNtYw,
-ssr://NDUuMTM1LjEzNS4yMDE6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ09HaHkvP29iZnNwYXJhbT0mcmVtYXJrcz02STZyNXBhdjU2ZVJUQSZncm91cD1URzVqYmk1dmNtYw,
-ssr://MTAzLjEyNC4xMDUuNDI6NjUwMDpvcmlnaW46cmM0OnBsYWluOmJHNWpiaTV2Y21jZ05tdDMvP29iZnNwYXJhbT0mcmVtYXJrcz01clNiNXAySjU1LTJSUSZncm91cD1URzVqYmk1dmNtYw,
-ssr://NDUuODYuNzQuMTM2OjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObXQzLz9vYmZzcGFyYW09JnJlbWFya3M9NXJTYjVwMko1NS0yUmcmZ3JvdXA9VEc1amJpNXZjbWM,
-ssr://NDUuODYuNzQuMTM5OjY1MDA6b3JpZ2luOnJjNDpwbGFpbjpiRzVqYmk1dmNtY2dObXQzLz9vYmZzcGFyYW09JnJlbWFya3M9NXJTYjVwMko1NS0yUncmZ3JvdXA9VEc1amJpNXZjbWM,
-ssr://     MTg1LjE0OS4yMy41OTo2NTAwOm9yaWdpbjpyYzQ6cGxhaW46Ykc1amJpNXZjbWNnTm10My8_b2Jmc3BhcmFtPSZyZW1hcmtzPTVyU2I1cDJKNTUtMlNBJmdyb3VwPVRHNWpiaTV2Y21j
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[(视频)什么是IPV6]]></title>
-        <id>https://blog.dtnetwork.top/post/shi-pin-shi-me-shi-ipv6/</id>
-        <link href="https://blog.dtnetwork.top/post/shi-pin-shi-me-shi-ipv6/">
-        </link>
-        <updated>2020-05-17T07:40:50.000Z</updated>
-        <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=370687156&bvid=BV1WZ4y1p77u&cid=192069266&page=1" scrolling="no" border="10" frameborder="no" framespacing="100" allowfullscreen="true"> </iframe>
-<p>视频地址https://www.bilibili.com/video/BV1WZ4y1p77u<br>
-转载自YouTube</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[站内搜索&全网搜索（BETA）]]></title>
-        <id>https://blog.dtnetwork.top/post/search/</id>
-        <link href="https://blog.dtnetwork.top/post/search/">
-        </link>
-        <updated>2020-05-10T00:15:12.000Z</updated>
-        <content type="html"><![CDATA[<h2>站内搜索</h2>
-<style type="text/css">;;
-#so360{white-space:nowrap}
-#so360_keyword{width:222
-#so360 form{margin:0;padding:0}px center;}
-#so360_submit{width:60outline:0;vertical-align:middle;padding-right: 95px;}
-#so360_keyword{background:url(https://p.ssl.qhimg.com/t01ab1a3fb05f0ee893.png)
- no-repeat 242</style>
-<div id="so360">
-    <form action="http://www.so.com/s" target="_blank" id="so360form">
-   <input type="text" autocomplete="off" name="q" id="so360_keyword">
-        <input type="submit" id="so360_submit" value="搜 索">
-        <input type="hidden" name="ie" value="utf8">
-        <input type="hidden" name="src" value="zz_https://blog.dtnetwork.top/">
-        <input type="hidden" name="site" value="https://blog.dtnetwork.top/">
-        <input type="hidden" name="rg" value="1">
-    </form>
-</div>
-<h2>全网搜索</h2>
-<style type="text/css">;;
-#so360{white-space:nowrap}
-#so360_keyword{width:222
-#so360 form{margin:0;padding:0}px center;}
-#so360_submit{width:60outline:0;vertical-align:middle;padding-right: 95px;}
-#so360_keyword{background:url(https://p.ssl.qhimg.com/t01ab1a3fb05f0ee893.png)
- no-repeat 242</style>
-<div id="so360">
-    <form action="http://www.so.com/s" target="_blank" id="so360form">
-   <input type="text" autocomplete="off" name="q" id="so360_keyword">
-        <input type="submit" id="so360_submit" value="搜 索">
-        <input type="hidden" name="ie" value="utf8">
-        <input type="hidden" name="src" value="zz_https://blog.dtnetwork.top/">
-        <input type="hidden" name="site" value="https://blog.dtnetwork.top/">
-        <input type="hidden" name="rg" value="0">
-    </form>
-</div>
-<p>#基于360搜索#</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[建站历程]]></title>
         <id>https://blog.dtnetwork.top/post/jian-zhan-li-cheng/</id>
@@ -240,7 +116,13 @@ kms.cangshui.net</p>
         <link href="https://blog.dtnetwork.top/post/zan-zhu-bo-ke/">
         </link>
         <updated>2020-05-02T14:38:26.000Z</updated>
-        <content type="html"><![CDATA[  <script>
+        <content type="html"><![CDATA[<p>由于后期运营成本的原因，本站欢迎赞助。注意，如需退款请于30天内<strong><a href="https://frontpage.dtnetwork.top/%E7%AB%99%E9%95%BF%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F.html" title="点击查看站长联系方式" target="_blank">联系站长</a></strong><br>
+一元以下概不退款，谢谢理解<br>
+支付宝：<br>
+<img src="https://blog.dtnetwork.top/post-images/1588430467537.png" alt="" loading="lazy"></p>
+<p>微信：<br>
+<img src="https://blog.dtnetwork.top/post-images/1588430634982.JPG" alt="" loading="lazy"></p>
+<script>
 (function(){
 var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
 document.write('<script src="' + src + '" id="sozz"><\/script>');
@@ -259,38 +141,7 @@ document.write('<script src="' + src + '" id="sozz"><\/script>');
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(bp, s);
     })();
-    </script>
-<p>由于后期运营成本的原因，本站欢迎赞助。注意，如需退款请于30天内<strong><a href="https://frontpage.dtnetwork.top/%E7%AB%99%E9%95%BF%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F.html" title="点击查看站长联系方式" target="_blank">联系站长</a></strong><br>
-一元以下概不退款，谢谢理解<br>
-支付宝：<br>
-<img src="https://blog.dtnetwork.top/post-images/1588430467537.png" alt="" loading="lazy"></p>
-<p>微信：<br>
-<img src="https://blog.dtnetwork.top/post-images/1588430634982.JPG" alt="" loading="lazy"></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Office 365免费使用]]></title>
-        <id>https://blog.dtnetwork.top/post/free-microsoft-office-365/</id>
-        <link href="https://blog.dtnetwork.top/post/free-microsoft-office-365/">
-        </link>
-        <updated>2020-05-02T13:05:34.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://blog.dtnetwork.top/post-images/1588426182813.jpg" alt="" loading="lazy"><br>
-鼎天网络作为微软开发者，通过内部途径获得了Microsoft Office 365的使用资格(现已改名为Microsoft365)，理论上可以永久使用。<br>
-现在开放申请使用（目前还剩约5个许可证，审核会有一定门槛）</p>
-<pre><code>https://forms.office.com/Pages/ResponsePage.aspx?id=cOjeaHH6pEKkPivNchFa745kF3EsiLlDh0CtSYwd8sxUMElWT0FQS0EzSVM3SlhFVzY1UUZCWEM4MC4u
-</code></pre>
-<p>复制上面链接到浏览器打开，完成表单的填写，我们会尽快审核。</p>
-<h2>另外，为了满足网友们的体验需求，提供一个免费的共享账号</h2>
-此账号如果无法登录请将详细报错写在留言区，站长会尽快处理。
-<h2>注意，此账号严禁恶意修改密码或者恶意删除他人文件，此账号所有文件将会被公开，如果被恶意删除请联系站长，站长会尽力找回（可能会出现无法找回的情况，请做好本地备份，不要存储重要或者机密文件，如有机密泄露及丢失等情况本站概不负责）</h2>
-<blockquote>
-<p>用户详细信息<br>
-显示名称: share1<br>
-用户名: share1@essesoul2020.onmicrosoft.com<br>
-密码: Yon72513</p>
-</blockquote>
-<center><strong><a href="https://frontpage.dtnetwork.top/%E7%AB%99%E9%95%BF%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F.html" title="点击查看站长联系方式" target="_blank">联系站长</a></strong></center>
-<center><strong><a href="https://www.office.com/" title="Microsoft Office官网" target="_blank">Microsoft Office官网</a></strong></center>]]></content>
+    </script>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[加速你的SS/SSR服务器]]></title>
