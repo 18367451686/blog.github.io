@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
     <title>鼎天网络博客</title>
-    <updated>2020-10-10T12:21:09.834Z</updated>
+    <updated>2020-10-10T12:22:35.078Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
@@ -140,31 +140,12 @@ document.write('<script src="' + src + '" id="sozz"><\/script>');
         </link>
         <updated>2020-05-02T14:38:26.000Z</updated>
         <content type="html"><![CDATA[<p>由于后期运营成本的原因，本站欢迎赞助。注意，如需退款请于30天内<strong><a href="https://frontpage.dtnetwork.top/%E7%AB%99%E9%95%BF%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F.html" title="点击查看站长联系方式" target="_blank">联系站长</a></strong><br>
-一元以下概不退款，谢谢理解<br>
-支付宝：<br>
-<img src="https://blog.dtnetwork.top/post-images/1588430467537.png" alt="" loading="lazy"></p>
-<p>微信：<br>
-<img src="https://blog.dtnetwork.top/post-images/1588430634982.JPG" alt="" loading="lazy"></p>
-<script>
-(function(){
-var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
-document.write('<script src="' + src + '" id="sozz"><\/script>');
-})();
-</script>
-  <script>
-    (function(){
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
-            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        }
-        else {
-            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-        }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
-    })();
-    </script>]]></content>
+一元以下概不退款，谢谢理解</p>
+<p>支付宝：</p>
+<figure data-type="image" tabindex="1"><img src="https://blog.dtnetwork.top/post-images/1588430467537.png" alt="" loading="lazy"></figure>
+<p>微信：</p>
+<figure data-type="image" tabindex="2"><img src="https://blog.dtnetwork.top/post-images/1588430634982.JPG" alt="" loading="lazy"></figure>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[加速你的SS/SSR服务器]]></title>
