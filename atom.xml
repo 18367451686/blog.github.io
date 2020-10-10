@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
     <title>鼎天网络博客</title>
-    <updated>2020-10-10T12:20:11.538Z</updated>
+    <updated>2020-10-10T12:21:09.834Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
@@ -76,8 +76,7 @@ document.write('<script src="' + src + '" id="sozz"><\/script>');
         <link href="https://blog.dtnetwork.top/post/kms/">
         </link>
         <updated>2020-05-03T07:10:05.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://blog.dtnetwork.top/post-images/1588491078866.png" alt="" loading="lazy"></figure>
-<h1>说明</h1>
+        <content type="html"><![CDATA[<h1>说明</h1>
 <p>【①】激活Windows系统要求：尽可能不使用淘宝/电脑城奸商系统，某吧某坛大神精简系统，某木风某白菜某之家某花园某家园魔改ghost系统，等一系列被人二次修改的系统，那么去哪里找官方原版系统？浏览器地址栏输入 http://msdn.itellyou.cn/ （I Tell You官网）然后回车即可</p>
 <p>【②】Windows7/8/8.1只支持专业版和企业版，windows10支持全系,OEM版什么的就肯定不能用kms激活，一般从msdn.itellyou.cn这里下载系统</p>
 <p>【③】激活Office要求：请勿使用各种精简版或上古版本（上古版本本身有注册机不需要KMS），那么去哪里下载原版office？浏览器地址栏输入otp.landian.vip（office tool plus）然后回车即可</p>
