@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
     <title>鼎天网络博客</title>
-    <updated>2020-10-11T03:53:31.960Z</updated>
+    <updated>2020-10-11T03:56:08.605Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
@@ -477,6 +477,11 @@ document.write('<script src="' + src + '" id="sozz"><\/script>');
         <content type="html"><![CDATA[<p><h2>鼎天网络网站资讯(最后更新于2020/5/16)</h2></p>
 <p>office365订阅申请正式更名为Microsoft365订阅申请，申请入口将于近期上线，届时可能会商业化</p>
 <p>本站已被百度收录</p>
+## 2020年重大更新
+<p>2020/9/01--鼎天网络云盘开始内测</p>
+<p>2020/10/1--鼎天网络云盘正式版上线</p>
+<p>2020/10/10--鼎天网络云盘正式与博客站对接</p>
+<p>2020/10/10--鼎天网络博客站大改版，删除部分文章。</p>
 <script>
 (function(){
 var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
