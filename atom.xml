@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
     <title>鼎天网络博客</title>
-    <updated>2021-02-20T08:13:30.733Z</updated>
+    <updated>2021-02-26T13:08:56.034Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://blog.dtnetwork.top/images/avatar.png</logo>
     <icon>https://blog.dtnetwork.top/favicon.ico</icon>
     <rights>All rights reserved 2021, 鼎天网络博客</rights>
+    <entry>
+        <title type="html"><![CDATA[网速测试]]></title>
+        <id>https://blog.dtnetwork.top/post/wang-su-ce-shi/</id>
+        <link href="https://blog.dtnetwork.top/post/wang-su-ce-shi/">
+        </link>
+        <updated>2021-02-26T13:06:32.000Z</updated>
+        <content type="html"><![CDATA[<p>鼎天网络工作室已经成为Speedtest官方合作伙伴，欢迎测速。</p>
+<iframe width="100%" height="650px" frameborder="0" src="https://dtnetwork.speedtestcustom.com"></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft 365申请（2021）]]></title>
         <id>https://blog.dtnetwork.top/post/microsoft-365/</id>
