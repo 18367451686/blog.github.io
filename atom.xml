@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
     <title>鼎天网络博客</title>
-    <updated>2021-02-26T13:13:08.005Z</updated>
+    <updated>2021-02-26T13:15:04.143Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
@@ -184,6 +184,7 @@ document.write('<script src="' + src + '" id="sozz"><\/script>');
 <p>2020/10/10--鼎天网络云盘正式与博客站对接</p>
 <p>2020/10/10--鼎天网络博客站大改版，删除部分文章。</p>
 <p>2021/2/19--鼎天网络入驻爱发电</p>
+<p>2021/2/26--鼎天网络成为Speedtest合作伙伴</p>
 <script>
 (function(){
 var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
