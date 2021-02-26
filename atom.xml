@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
     <title>鼎天网络博客</title>
-    <updated>2021-02-26T13:35:03.267Z</updated>
+    <updated>2021-02-26T13:53:36.501Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
@@ -10,6 +10,14 @@
     <logo>https://blog.dtnetwork.top/images/avatar.png</logo>
     <icon>https://blog.dtnetwork.top/favicon.ico</icon>
     <rights>All rights reserved 2021, 鼎天网络博客</rights>
+    <entry>
+        <title type="html"><![CDATA[全球疫情动态]]></title>
+        <id>https://blog.dtnetwork.top/post/quan-qiu-yi-qing-dong-tai/</id>
+        <link href="https://blog.dtnetwork.top/post/quan-qiu-yi-qing-dong-tai/">
+        </link>
+        <updated>2021-02-26T13:52:15.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=0bc1336f-c299-4f77-b7d6-530eba3d445b&appId=d8e96292-f4d3-4398-a3eb-2882b06e5919&autoAuth=true&ctid=68dee870-fa71-42a4-a43e-2bcd72115aef&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWVhc3QtYXNpYS1hLXByaW1hcnktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQvIn0%3D" frameborder="0" allowFullScreen="true"></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[网速测试]]></title>
         <id>https://blog.dtnetwork.top/post/speedtest/</id>
