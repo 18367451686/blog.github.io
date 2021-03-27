@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.dtnetwork.top</id>
     <title>鼎天网络博客</title>
-    <updated>2021-03-06T04:14:10.695Z</updated>
+    <updated>2021-03-27T15:41:32.261Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.dtnetwork.top"/>
     <link rel="self" href="https://blog.dtnetwork.top/atom.xml"/>
@@ -141,39 +141,6 @@ document.write('<script src="' + src + '" id="sozz"><\/script>');
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[鼎天网络云盘正式上线]]></title>
-        <id>https://blog.dtnetwork.top/post/ding-tian-wang-luo-yun-pan/</id>
-        <link href="https://blog.dtnetwork.top/post/ding-tian-wang-luo-yun-pan/">
-        </link>
-        <updated>2020-10-10T12:12:58.000Z</updated>
-        <content type="html"><![CDATA[<p>鼎天网络云盘正式上线，欢迎前来注册。</p>
-<p><a href="https://www.yun.dtnetwork.top/">鼎天网络云盘官网</a></p>
-<p><a href="https://docs.dtnetwork.top/zui-xin-huo-dong">最新活动</a></p>
-<p><a href="https://docs.dtnetwork.top/">鼎天网络云盘相关技术文档</a></p>
-<p><a href="https://support.qq.com/products/285770">意见反馈</a></p>
-<script>
-(function(){
-var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
-document.write('<script src="' + src + '" id="sozz"><\/script>');
-})();
-</script>
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https'){
-   bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-  }
-  else{
-  bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-  }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[建站历程]]></title>
         <id>https://blog.dtnetwork.top/post/jian-zhan-li-cheng/</id>
         <link href="https://blog.dtnetwork.top/post/jian-zhan-li-cheng/">
@@ -193,6 +160,7 @@ document.write('<script src="' + src + '" id="sozz"><\/script>');
 <p>2020/10/10--鼎天网络博客站大改版，删除部分文章。</p>
 <p>2021/2/19--鼎天网络入驻爱发电</p>
 <p>2021/2/26--鼎天网络成为Speedtest合作伙伴</p>
+<p>2021/3/27--鼎天网络与杏仁云盘合作，鼎天网络云盘开始准备下线。</p>
 <script>
 (function(){
 var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
